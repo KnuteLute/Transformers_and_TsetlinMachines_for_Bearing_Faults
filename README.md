@@ -2,6 +2,7 @@
 #### Simon Makassiouk, Knut Selstad, Sigurd Søberg
 
 This repository contains the code and documentation for a bachelor thesis focusing on the enhancement of bearing fault detection and classification systems using two machine learning models: the transformer, and the Tsetlin Machine (TM).
+ChatGPT by OpenAI was used to assist in implementing code.
 
 These are the steps to train the models and generate results:
 ## Download Datasets
