@@ -5,7 +5,7 @@ This repository contains the code and documentation for a bachelor thesis focusi
 ## These are the steps to train the models and generate results:
 
 ### Download datasets
-- [**NASA**]([https://link-url-here.org](https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset))
+- [**NASA**](https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset)
   - Download and extract into any folder.
 - [**CWRU**](https://engineering.case.edu/bearingdatacenter/48k-drive-end-bearing-fault-data)
   - Download all files in the "Inner Race", "Ball", and "Centered @6:00" columns.
