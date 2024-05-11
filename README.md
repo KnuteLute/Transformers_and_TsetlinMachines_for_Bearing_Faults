@@ -11,5 +11,11 @@ This repository contains the code and documentation for a bachelor thesis focusi
   - Download all files in the "Inner Race", "Ball", and "Centered @6:00" columns.
   - Put all files into one folder.
 
+### Clone git repository
+Either download the repo as ZIP folder,
+or use ``git clone`` with the URL: 
+``https://github.com/KnuteLute/Transformers_and_TsetlinMachines_for_Bearing_Faults.git``
+
 ### Generate Spectrograms
 - **NASA**
+  
