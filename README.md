@@ -49,9 +49,19 @@ All scripts for TM models are structured similarly. To run any of them, follow t
   - Open script from ``TsetlinMachine->CWRU`` in a code editor that supports IPython notebooks.
   - Change value of ``directory_path`` to the folder chosen as output folder for spectrograms during preprocessing (value that ``output_folder_path`` was set to in ``Preprocessing->cwru_spectrograms.ipynb``).
   - Optionally change the value of ``json_file`` to desired directory to save results to.
+  - Run all code cells.
 - **NASA:**
   - Open script from ``TsetlinMachine->NASA`` in a code editor that supports IPython notebooks.
   - Change value of ``NASA_spectrogram_root_folder`` to the folder chosen for spectrograms during preprocessing (value that ``NASA_spectrogram_output_folder_path`` was set to in ``Preprocessing->nasa_spectrograms.ipynb``).
   - Optionally change the value of ``json_file`` to desired directory to save results to.
+  - Run all code cells.
 
 ### Transformer Models
+There are two scripts for transformer models:
+- ``CWRU_Transformer.ipynb``
+- ``NASA_Transformer.ipynb``
+
+To run either of them, follow these steps:
+- Open script from ``Transformer`` in a code editor that supports IPython notebooks.
+- Change value of ``NASA_spectrogram_root_folder`` to the folder chosen for spectrograms during preprocessing (value that ``NASA_spectrogram_output_folder_path`` was set to in ``Preprocessing->nasa_spectrograms.ipynb``).
+- Run all code cells.
