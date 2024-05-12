@@ -35,6 +35,7 @@ There are two scripts for transformer models:
 - ``CWRU_Transformer.ipynb``
 - ``NASA_Transformer.ipynb``
 
+The dependencies are listed as imports in the scripts.
 To run either of them, follow these steps:
 - Open script from ``Transformer`` in a code editor that supports IPython notebooks.
 - Change value of ``NASA_spectrogram_root_folder`` to the folder chosen for spectrograms during preprocessing (value that ``NASA_spectrogram_output_folder_path`` was set to in ``Preprocessing->nasa_spectrograms.ipynb``).
