@@ -30,6 +30,16 @@ or use ``git clone`` with the URL:
   - Change value of ``output_folder_path`` to any empty folder to be used as the output folder for spectrogram data.
 
 ## Train Models
+### Transformer Models
+There are two scripts for transformer models:
+- ``CWRU_Transformer.ipynb``
+- ``NASA_Transformer.ipynb``
+
+To run either of them, follow these steps:
+- Open script from ``Transformer`` in a code editor that supports IPython notebooks.
+- Change value of ``NASA_spectrogram_root_folder`` to the folder chosen for spectrograms during preprocessing (value that ``NASA_spectrogram_output_folder_path`` was set to in ``Preprocessing->nasa_spectrograms.ipynb``).
+- Run all code cells.
+
 ### Tsetlin Machine Models
 There are 9 scripts for TM models:
 - **CWRU:**
@@ -44,6 +54,7 @@ There are 9 scripts for TM models:
   - ``NASA_MTM_binary.ipynb``: MTM using binary embedding.
   - ``NASA_MTM_thermometer.ipynb``: MTM using thermometer embedding.
 
+To run the TM scripts, there is no currently known way to do so using Windows without using WSL. For Linux/WSL, the dependencies are listed as imports in the scripts.
 All scripts for TM models are structured similarly. To run any of them, follow these steps:
 - **CWRU:**
   - Open script from ``TsetlinMachine->CWRU`` in a code editor that supports IPython notebooks.
@@ -56,12 +67,3 @@ All scripts for TM models are structured similarly. To run any of them, follow t
   - Optionally change the value of ``json_file`` to desired directory to save results to.
   - Run all code cells.
 
-### Transformer Models
-There are two scripts for transformer models:
-- ``CWRU_Transformer.ipynb``
-- ``NASA_Transformer.ipynb``
-
-To run either of them, follow these steps:
-- Open script from ``Transformer`` in a code editor that supports IPython notebooks.
-- Change value of ``NASA_spectrogram_root_folder`` to the folder chosen for spectrograms during preprocessing (value that ``NASA_spectrogram_output_folder_path`` was set to in ``Preprocessing->nasa_spectrograms.ipynb``).
-- Run all code cells.
